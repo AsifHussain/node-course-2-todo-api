@@ -18,7 +18,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', { useNewUrlParser: true
    // });
 
    // Insert new doc into Users (name, age, location)
-  db.collection('Users').insertOne({
+  db.collection('users').insertOne({
     name: 'Andrew',
     age: 25,
     location: 'Philadelphia'
